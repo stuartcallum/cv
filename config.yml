@@ -33,8 +33,9 @@ params:
 
       Learning Python so I can do some software engineering as well.
 
-      I'm a big history nerd. Love my live music. 
-    
+      I'm a big history nerd. Love my live music.  
+
+      You can dowload my resume as a PDF here: https://www.canva.com/design/DAFI5Itio-g/kyTzq5L9pnV2O4n3DsXsfg/view?utm_content=DAFI5Itio-g&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
   social:
       ## IF you want to keep them aligned just add spaces
@@ -42,8 +43,6 @@ params:
         url: "      https://github.com/stuartcallum"
       - name: "linkedin  "
         url: "      https://linkedin.com/in/callumstuart/"
-      - name: "x.com     "
-        url: "      https://twitter.com/neontrotsky_"
       - name: "letterboxd"
         url: "      https://letterboxd.com/calstu"
 
@@ -54,7 +53,7 @@ params:
       location: Fully remote
       date: 2021 - Present
       description: |
-        I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe.  I am responsible for managing and operating products and solutions for Bullhorn’s production environment, while ensuring 24/7 availability.
+        I am responsible for managing and operating products and solutions for Bullhorn’s production environment, while ensuring 24/7 availability. I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe. 
 
         My daily tasks include:
           • Monitoring and maintaining all production system equipment and services.
@@ -123,6 +122,11 @@ params:
       percentage: 30
       description: Currently learning. I've written some scripts and completed various LeetCode challenges. 
 
+    - name: Web Administration
+      color: orange
+      percentage: 80
+      description: You're looking at it ;)
+      
     - name: Kubernetes
       color: violet
       percentage: 50
@@ -130,11 +134,6 @@ params:
         I administer Kubernetnes nodes across the world, codified using Helm Charts.
 
         I have built a Kubernetes cluster on my homelab and use it to self-host various services.
-
-    - name: Web Administration
-      color: orange
-      percentage: 80
-      description: You're looking at it ;)
 
   softskills:
     - name: Communication
