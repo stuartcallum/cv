@@ -124,7 +124,7 @@ params:
       description: Currently learning. I've written some scripts and completed various LeetCode challenges. 
 
     - name: Kubernetes
-      color: blue
+      color: violet
       percentage: 50
       description: |
         I administer Kubernetnes nodes across the world, codified using Helm Charts.
@@ -132,7 +132,7 @@ params:
         I have built a Kubernetes cluster on my homelab and use it to self-host various services.
 
     - name: Web Administration
-      color: navy
+      color: orange
       percentage: 80
       description: You're looking at it ;)
 
