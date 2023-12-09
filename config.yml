@@ -47,16 +47,16 @@ params:
       - name: "letterboxd"
         url: "      https://letterboxd.com/calstu"
 
-  workexp:
+  work:
     - jobTitle: Systems Administrator II
-      color: red
+      color: green
       company: 'Bullhorn, Inc' 
       location: Fully remote
       date: 2021 - Present
       description: I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe.
 
     - jobTitle: Junior Systems Administrator
-      color: purple
+      color: green 
       company: 'OneStop Connections, Pty Ltd'
       location: Surry Hills
       date: 2019 - 2021
