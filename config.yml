@@ -1,7 +1,7 @@
 ## Example Config file
 baseURL: "/"
 theme: "terminalcv"
-title: "CallumStu.art"
+title: "Callum Stuart Resume"
 
 params:
   description: "4s3ti cv terminal format"
@@ -29,7 +29,7 @@ params:
     description: |
       I am responsible for the performance, security, and integrity of highly-available systems in a global SaaS company.
 
-      I like all things containers and Kubernetes. I'm a big fan of #selfhosted
+      I like all things containers and try to #selfhost everything.
 
       Learning Python so I can do some software engineering as well.
 
@@ -41,7 +41,7 @@ params:
       - name: "github    "
         url: "      https://github.com/stuartcallum"
       - name: "linkedin  "
-        url: "      https://www.linkedin.com/in/callumstuart/"
+        url: "      https://linkedin.com/in/callumstuart/"
       - name: "x.com     "
         url: "      https://twitter.com/neontrotsky_"
       - name: "letterboxd"
@@ -53,7 +53,17 @@ params:
       company: 'Bullhorn, Inc' 
       location: Fully remote
       date: 2021 - Present
-      description: I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe.
+      description: |
+        I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe.  I am responsible for managing and operating products and solutions for Bullhorn’s production environment, while ensuring 24/7 availability.
+
+        My daily tasks include:
+          • Monitoring and maintaining all production system equipment and services.
+          • Ensuring 24/7 availability of the Bullhorn production application environments. Including weekend on-call responsibilities on a rotating basis.
+          • Documenting technical environments, processes and procedures.
+          • Providing direct support to Software Development, Quality Engineering, Customer Support, Professional Services and third party vendors as needed to resolve production problems.
+          • Maintaining network and systems configurations globally across numerous data centers.
+          • Developing system analysis and reporting tools and tools for task automation.
+          • Participating in the planning and execution of new product deployment and enhancement projects, ensuring preparedness in servicing the product. 
 
     - jobTitle: Junior Systems Administrator
       color: green 
@@ -63,39 +73,79 @@ params:
       description: I was single-handedly responsible for the corporate enviornment, which included vendor management and migrating staff remotely during the pandemic.
 
   education:
-   - courseName: Red Color training
-     color: red
-     date: June 2019 - July 2019
-     description: Descrption about red color trianing
+   - courseName: Bachelor of Science in Information Technology
+     color: green
+     date: 2020 - Present
+     description: |
+        University of Technology Sydney
+        Majoring in Enterprise Systems Development
 
-   - courseName: Default color training
-     date: Sept 2004 - Jun 2008
-     #description: There is no need for description
+        The course aims to produce graduates who are able to apply, in the context of any organisation, the knowledge and skills required of:
+          • information systems professionals in business units who integrate packaged systems rather than develop systems from first principles
+          • information technology professionals who develop systems from first principles, or
+          • cybersecurity and network specialists who build, maintain and administer complex network systems
+
+   - courseName: Advanced Diploma of Network security
+     color: green
+     date: 2019
+     description: |
+      TAFE Ultimo
+
+      This qualification provides the skills and knowledge for an individual to plan, design, manage and monitor an enterprise information and communications technology (ICT) network as an independent ICT specialist or as part of a team responsible for advanced ICT network security systems.
+
+      The qualification has a high-level ICT technical base with appropriate security units and the ability to specialise in several areas, including voice, wireless, network infrastructure and sustainability.
+
+   - courseName: Diploma of Advanced Networking
+     color: green
+     date: 2019
+     description: |
+      TAFE Ultimo
+
+        This qualification provides an individual the skills and knowledge to manage, as an independent ICT specialist or as part of a team, the installation of a range of networks, including internetworking, security and e-business integration.
+
+   - courseName: Certificate IV of Information Technology
+     color: green
+     date: 2018
+     description: |
+        TAFE Ultimo
+
+        This qualification provides the skills and knowledge for an individual to manage, as an independent ICT specialist or as part of a team, the installation of a range of networks, including internetworking, security and e-business integration.
+    
 
   skills:
-    - name: Skill 1
-      percentage: 90
-      Description: you can add a description
+    - name: Linux/Bash
+      color: green
+      percentage: 100
+      # Description: 
 
-    - name: Skill 2
+    - name: Python
+      color: yellow
       percentage: 30
-      #description: or you can leave it comented   
+      description: Currently learning. I write scripts and completed various LeetCode challenges. 
 
-    - name: Skill 3
+    - name: Kubernetes
       color: blue
       percentage: 50
-      description: Skill names can have colors too
+      description: |
+        I administer Kubernetnes nodes across the world, codified using Helm Charts.
+
+        I have built a Kubernetes cluster on my homelab and use it to self-host various services.
+
+    - name: Web Administration
+      color: navy
+      percentage: 80
+      description: You're looking at it ;)
 
   softskills:
-    - name: SoftSkill 1
+    - name: Communication
       color: red
       percentage: 80
       #description:
 
-    - name:  SoftSkill 2
+    - name:  Documentation
       #color: 
       percentage: 90
-      description: Description
+      # description: Description
 
   # languages:
   #   - name: English
@@ -108,47 +158,47 @@ params:
   #     description: pasghettipigglywiggly
 
 
-  projects:
-    - title: Project Red
-      color: red
-      date: since 2019
-      link: https://example.com
-      description: Describing red stuff
-
-    - title: Project Blue
-      color: blue
-      date: since 2016
-      link: https://example.com/blue
-      #description: nothing to describe
-
-    - title: Project Default
-      date: Since 2017
-      link: https://example.com/default
-      #description: not there either
-
-  certifications:
-  - certName: Example Cert
-    company: Example Certifying Company
-    date: Date of Completion
-    #description: Lorem Ipsum
-
-  misc: 
-    #commandName: newcommand
-    title: "This Section can have a different command name"
-    titleColor: teal
-    content: |
-          Here the title and the content can have different colors
-          The content can be multi
-          
-          line
-
-          And spaces       will be respected as well
-          This section will have the default command: misc
-          but you can name it something else with the property
-          commandName: <String>
-          Give it a shot and try and uncomment the line 
-          commandName: newcommand
-          now instead of misc you can execute the newcommand for this section
-          Auto completion will know it too! :D 
-
-    contentColor: orange
+  # projects:
+  #   - title: Project Red
+  #     color: red
+  #     date: since 2019
+  #     link: https://example.com
+  #     description: Describing red stuff
+  #
+  #   - title: Project Blue
+  #     color: blue
+  #     date: since 2016
+  #     link: https://example.com/blue
+  #     #description: nothing to describe
+  #
+  #   - title: Project Default
+  #     date: Since 2017
+  #     link: https://example.com/default
+  #     #description: not there either
+  #
+  # certifications:
+  # - certName: Example Cert
+  #   company: Example Certifying Company
+  #   date: Date of Completion
+  #   #description: Lorem Ipsum
+  #
+  # misc: 
+  #   #commandName: newcommand
+  #   title: "This Section can have a different command name"
+  #   titleColor: teal
+  #   content: |
+  #         Here the title and the content can have different colors
+  #         The content can be multi
+  #         
+  #         line
+  #
+  #         And spaces       will be respected as well
+  #         This section will have the default command: misc
+  #         but you can name it something else with the property
+  #         commandName: <String>
+  #         Give it a shot and try and uncomment the line 
+  #         commandName: newcommand
+  #         now instead of misc you can execute the newcommand for this section
+  #         Auto completion will know it too! :D 
+  #
+  #   contentColor: orange
