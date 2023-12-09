@@ -1,0 +1,154 @@
+## Example Config file
+baseURL: "/"
+theme: "terminalcv"
+title: "CallumStu.art"
+
+params:
+  description: "4s3ti cv terminal format"
+  prompt: "root@callumstu.art"
+# promptColor: grey
+# promptSimbols: ":~$"
+# promptSimbolsColor: grey
+# startxLocation: https://example.com
+# hideSocialName: true
+# exitLocation: 'about:blank'
+  hidesource: true
+  greeting: | 
+    Welcome to my online resume
+
+
+    Type 'help' for a list of available commands
+
+
+  whois:
+    name: "Callum Stuart"
+    profession: "Systems Administrator"
+    location: "Bondi, Sydney"
+    email: "mail@callumstu.art"
+    homelink: "https://callumstu.art"
+    description: |
+      I am responsible for the performance, security, and integrity of highly-available systems in a global SaaS company.
+
+      I like all things containers and Kubernetes. I'm a big fan of #selfhosted
+
+      Learning Python so I can do some software engineering as well.
+
+      I'm a big history nerd. Love my live music. 
+    
+
+  social:
+      ## IF you want to keep them aligned just add spaces
+      - name: "github    "
+        url: "      https://github.com/stuartcallum"
+      - name: "linkedin  "
+        url: "      https://www.linkedin.com/in/callumstuart/"
+      - name: "x.com     "
+        url: "      https://twitter.com/neontrotsky_"
+      - name: "letterboxd"
+        url: "      https://letterboxd.com/calstu"
+
+  workexp:
+    - jobTitle: Systems Administrator II
+      color: red
+      company: 'Bullhorn, Inc' 
+      location: Fully remote
+      date: 2021 - Present
+      description: I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe.
+
+    - jobTitle: Junior Systems Administrator
+      color: purple
+      company: 'OneStop Connections, Pty Ltd'
+      location: Surry Hills
+      date: 2019 - 2021
+      description: I was single-handedly responsible for the corporate enviornment, which included vendor management and migrating staff remotely during the pandemic.
+
+  education:
+   - courseName: Red Color training
+     color: red
+     date: June 2019 - July 2019
+     description: Descrption about red color trianing
+
+   - courseName: Default color training
+     date: Sept 2004 - Jun 2008
+     #description: There is no need for description
+
+  skills:
+    - name: Skill 1
+      percentage: 90
+      Description: you can add a description
+
+    - name: Skill 2
+      percentage: 30
+      #description: or you can leave it comented   
+
+    - name: Skill 3
+      color: blue
+      percentage: 50
+      description: Skill names can have colors too
+
+  softskills:
+    - name: SoftSkill 1
+      color: red
+      percentage: 80
+      #description:
+
+    - name:  SoftSkill 2
+      #color: 
+      percentage: 90
+      description: Description
+
+  # languages:
+  #   - name: English
+  #     color: Blue
+  #     percentage: 50
+  #     #description: 
+  #
+  #   - name: Gibberish
+  #     percentage: 100
+  #     description: pasghettipigglywiggly
+
+
+  projects:
+    - title: Project Red
+      color: red
+      date: since 2019
+      link: https://example.com
+      description: Describing red stuff
+
+    - title: Project Blue
+      color: blue
+      date: since 2016
+      link: https://example.com/blue
+      #description: nothing to describe
+
+    - title: Project Default
+      date: Since 2017
+      link: https://example.com/default
+      #description: not there either
+
+  certifications:
+  - certName: Example Cert
+    company: Example Certifying Company
+    date: Date of Completion
+    #description: Lorem Ipsum
+
+  misc: 
+    #commandName: newcommand
+    title: "This Section can have a different command name"
+    titleColor: teal
+    content: |
+          Here the title and the content can have different colors
+          The content can be multi
+          
+          line
+
+          And spaces       will be respected as well
+          This section will have the default command: misc
+          but you can name it something else with the property
+          commandName: <String>
+          Give it a shot and try and uncomment the line 
+          commandName: newcommand
+          now instead of misc you can execute the newcommand for this section
+          Auto completion will know it too! :D 
+
+    contentColor: orange
