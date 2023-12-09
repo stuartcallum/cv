@@ -121,7 +121,7 @@ params:
     - name: Python
       color: yellow
       percentage: 30
-      description: Currently learning. I write scripts and completed various LeetCode challenges. 
+      description: Currently learning. I've written some scripts and completed various LeetCode challenges. 
 
     - name: Kubernetes
       color: blue
