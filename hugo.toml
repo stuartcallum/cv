@@ -1,0 +1,10 @@
+baseURL = 'http://callumstu.art/'
+languageCode = 'en-au'
+title = 'CallumStu.art'
+theme = 'smol'
+
+# Footer
+  [[menu.footer]]
+    name = 'Github'
+    url = "https://github.com/stuartcallum"
+    weight = 1
