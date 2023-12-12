@@ -139,12 +139,12 @@ params:
     - name: Communication
       color: red
       percentage: 80
-      #description:
+      description:
 
     - name:  Documentation
       #color: 
       percentage: 90
-      # description: Description
+      description: I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe. This means documentation and communication have to be impeccable to ensure ccontinuity across timezones.
 
   # languages:
   #   - name: English
@@ -157,24 +157,24 @@ params:
   #     description: pasghettipigglywiggly
 
 
-  # projects:
-  #   - title: Project Red
-  #     color: red
-  #     date: since 2019
-  #     link: https://example.com
-  #     description: Describing red stuff
-  #
-  #   - title: Project Blue
-  #     color: blue
-  #     date: since 2016
-  #     link: https://example.com/blue
-  #     #description: nothing to describe
-  #
-  #   - title: Project Default
-  #     date: Since 2017
-  #     link: https://example.com/default
-  #     #description: not there either
-  #
+  projects:
+    - title: Kubernetes Cluster
+      color: red
+      date: since 2021
+      link: https://github.com/stuartcallum/homelab
+      description: I built a multi-node homelab to manage my data and media. Each node is attached to an M.2 SSD which uses Ceph to pool them into a ZFS array.
+
+    - title: CI/CD Pipeline
+      color: green
+      date: since 2023
+      link: https://github.com/stuartcallum/blog
+      description: Built this website on Hugo. It uses Cloudflare Pages to host and redeploy whenever I push to git. SSL Certs are managed using Cloudflare.
+
+    # - title: Project Default
+    #   date: Since 2017
+    #   link: https://example.com/default
+      #description: not there either
+
   # certifications:
   # - certName: Example Cert
   #   company: Example Certifying Company
