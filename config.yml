@@ -162,7 +162,9 @@ params:
       color: red
       date: since 2021
       link: https://github.com/stuartcallum/homelab
-      description: I built a multi-node homelab to manage my data and media. Each node is attached to an M.2 SSD which uses Ceph to pool them into a ZFS array.
+      description: |
+        I built a multi-node homelab to manage my data and media. Each node is attached to an M.2 SSD which uses Ceph to pool them into a ZFS array.
+        I am currently working on codifying my Cluster using Terraform and Helm Charts.
 
     - title: CI/CD Pipeline
       color: green
