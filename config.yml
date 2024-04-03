@@ -35,8 +35,6 @@ params:
 
       I'm a big history nerd. Love my live music.  
 
-      You can dowload my resume as a PDF here: https://www.canva.com/design/DAFI5Itio-g/kyTzq5L9pnV2O4n3DsXsfg/view?utm_content=DAFI5Itio-g&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
-
   social:
       ## IF you want to keep them aligned just add spaces
       - name: "github    "
@@ -120,7 +118,7 @@ params:
     - name: Python
       color: yellow
       percentage: 30
-      description: Currently learning. I've written some scripts and completed various LeetCode challenges. 
+      # description: Currently learning. I've written some scripts and completed various LeetCode challenges. 
 
     - name: Web Administration
       color: orange
@@ -171,6 +169,12 @@ params:
       date: since 2023
       link: https://github.com/stuartcallum/blog
       description: Built this website on Hugo. It uses Cloudflare Pages to host and redeploy whenever I push to git. SSL Certs are managed using Cloudflare.
+
+    - title: Java Web-App
+      color: orange
+      date: Sem 1 2024
+      link: https://github.com/twdly/IoTBay
+      description: Project for my Software Development class. Building a web app in java and hosted by Tomcat using SOLID principals. I have automated building and deploying using Apache Ant.
 
     # - title: Project Default
     #   date: Since 2017
