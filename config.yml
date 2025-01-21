@@ -22,7 +22,7 @@ params:
 
   whois:
     name: "Callum Stuart"
-    profession: "Systems Administrator"
+    profession: "Network & Systems Engineer"
     location: "Bondi, Sydney"
     email: "mail@callumstu.art"
     homelink: "https://callumstu.art"
@@ -45,6 +45,19 @@ params:
         url: "      https://letterboxd.com/calstu"
 
   work:
+    - jobTitle: Network & Systems Engineer
+      color: green
+      company: 'VisualCortex Holdings Pty Ltd'
+      location: Sydney CBD
+      date: 2024 - Present
+      description: |
+        I am in-charge of networking and infrastructure for this start-up. I do it all, including; 
+         • Ordering and provisioning equipment.
+         • Renewing SSL certs.
+         • Configuring monitoring and dashboards.
+         • Routine patching and maintenance.
+         • Automating and testing backups.
+
     - jobTitle: Systems Administrator II
       color: green
       company: 'Bullhorn, Inc' 
