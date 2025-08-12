@@ -120,6 +120,10 @@ params:
         TAFE Ultimo
 
         This qualification provides the skills and knowledge for an individual to manage, as an independent ICT specialist or as part of a team, the installation of a range of networks, including internetworking, security and e-business integration.
+
+   - courseName: Bachelor in Information Technology
+     color: green
+     date: 2025
     
 
   skills:
