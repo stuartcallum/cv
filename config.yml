@@ -22,18 +22,12 @@ params:
 
   whois:
     name: "Callum Stuart"
-    profession: "Network & Systems Engineer"
+    profession: "Infrastructure Engineer"
     location: "Bondi, Sydney"
     email: "mail@callumstu.art"
     homelink: "https://callumstu.art"
     description: |
-      I am responsible for the performance, security, and integrity of highly-available systems in a global SaaS company.
-
-      I like all things containers and try to #selfhost everything.
-
-      Learning Python so I can do some software engineering as well.
-
-      I'm a big history nerd. Love my live music.  
+      Infrastructure engineer experienced in provisioning and scaling AI and SaaS applications. 
 
   social:
       ## IF you want to keep them aligned just add spaces
@@ -45,11 +39,18 @@ params:
         url: "      https://letterboxd.com/calstu"
 
   work:
+    - jobTitle: 'Infrastructure Engineer'
+      color: green
+      company: 'DroneShield'
+      location: 'Sydney CBD'
+      date: 2025
+      description: |
+        Building a supercluster to train AI models using ML-Ops principles.
     - jobTitle: Network & Systems Engineer
       color: green
-      company: 'VisualCortex Holdings Pty Ltd'
-      location: Sydney CBD
-      date: 2024 - Present
+      company: 'VisualCortex'
+      location: 'Sydney CBD'
+      date: 2024 
       description: |
         I am in-charge of networking and infrastructure for this start-up. I do it all, including; 
          • Ordering and provisioning equipment.
@@ -60,7 +61,7 @@ params:
 
     - jobTitle: Systems Administrator II
       color: green
-      company: 'Bullhorn, Inc' 
+      company: 'Bullhorn' 
       location: Fully remote
       date: 2021 - 2024
       description: |
