@@ -52,7 +52,7 @@ params:
       location: 'Sydney CBD'
       date: 2024 
       description: |
-        I am in-charge of networking and infrastructure for this start-up. I do it all, including; 
+        I am responsible for networking and infrastructure for this start-up. I do it all, including; 
          • Ordering and provisioning equipment.
          • Renewing SSL certs.
          • Configuring monitoring and dashboards.
@@ -69,8 +69,6 @@ params:
 
         My daily tasks include:
           • Monitoring and maintaining all production system equipment and services.
-          • Ensuring 24/7 availability of the Bullhorn production application environments. Including weekend on-call responsibilities on a rotating basis.
-          • Documenting technical environments, processes and procedures.
           • Providing direct support to Software Development, Quality Engineering, Customer Support, Professional Services and third party vendors as needed to resolve production problems.
           • Maintaining network and systems configurations globally across numerous data centers.
           • Developing system analysis and reporting tools and tools for task automation.
@@ -86,7 +84,6 @@ params:
   education:
    - courseName: Bachelor of Science in Information Technology
      color: green
-     date: 2020 - Present
      description: |
         University of Technology Sydney
         Majoring in Enterprise Systems Development
