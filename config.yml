@@ -5,9 +5,11 @@ title: "Callum Stuart Resume"
 
 params:
   description: "4s3ti cv terminal format"
-  prompt: "root@callumstu.art"
+  prompt:
+    core:
+      text: root@callumstu.art
 # promptColor: grey
-# promptSimbols: ":~$"
+  promptSimbols: ":~$"
 # promptSimbolsColor: grey
 # startxLocation: https://example.com
 # hideSocialName: true
@@ -30,6 +32,7 @@ params:
       Infrastructure engineer experienced in provisioning and scaling AI and SaaS applications. 
 
   social:
+    details:
       ## IF you want to keep them aligned just add spaces
       - name: "github    "
         url: "      https://github.com/stuartcallum"
@@ -39,126 +42,130 @@ params:
         url: "      https://letterboxd.com/calstu"
 
   work:
-    - jobTitle: 'Infrastructure Engineer'
-      color: green
-      company: 'DroneShield'
-      location: 'Sydney CBD'
-      date: 2025
-      description: |
-        Building a supercluster to train AI models using ML-Ops principles.
-    - jobTitle: Network & Systems Engineer
-      color: green
-      company: 'VisualCortex'
-      location: 'Sydney CBD'
-      date: 2024 
-      description: |
-        I am responsible for networking and infrastructure for this start-up. I do it all, including; 
-         • Ordering and provisioning equipment.
-         • Renewing SSL certs.
-         • Configuring monitoring and dashboards.
-         • Routine patching and maintenance.
-         • Automating and testing backups.
+    details:
+      - jobTitle: 'Infrastructure Engineer'
+        color: green
+        company: 'DroneShield'
+        location: 'Sydney CBD'
+        date: 2025
+        description: |
+          Building a supercluster to train AI models using ML-Ops principles.
+      - jobTitle: Network & Systems Engineer
+        color: green
+        company: 'VisualCortex'
+        location: 'Sydney CBD'
+        date: 2024 
+        description: |
+          I am responsible for networking and infrastructure for this start-up. I do it all, including; 
+           • Ordering and provisioning equipment.
+           • Renewing SSL certs.
+           • Configuring monitoring and dashboards.
+           • Routine patching and maintenance.
+           • Automating and testing backups.
 
-    - jobTitle: Systems Administrator II
-      color: green
-      company: 'Bullhorn' 
-      location: Fully remote
-      date: 2021 - 2024
-      description: |
-        I am responsible for managing and operating products and solutions for Bullhorn’s production environment, while ensuring 24/7 availability. I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe. 
+      - jobTitle: Systems Administrator II
+        color: green
+        company: 'Bullhorn' 
+        location: Fully remote
+        date: 2021 - 2024
+        description: |
+          I am responsible for managing and operating products and solutions for Bullhorn’s production environment, while ensuring 24/7 availability. I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe. 
 
-        My daily tasks include:
-          • Monitoring and maintaining all production system equipment and services.
-          • Providing direct support to Software Development, Quality Engineering, Customer Support, Professional Services and third party vendors as needed to resolve production problems.
-          • Maintaining network and systems configurations globally across numerous data centers.
-          • Developing system analysis and reporting tools and tools for task automation.
-          • Participating in the planning and execution of new product deployment and enhancement projects, ensuring preparedness in servicing the product. 
+          My daily tasks include:
+            • Monitoring and maintaining all production system equipment and services.
+            • Providing direct support to Software Development, Quality Engineering, Customer Support, Professional Services and third party vendors as needed to resolve production problems.
+            • Maintaining network and systems configurations globally across numerous data centers.
+            • Developing system analysis and reporting tools and tools for task automation.
+            • Participating in the planning and execution of new product deployment and enhancement projects, ensuring preparedness in servicing the product. 
 
-    - jobTitle: Junior Systems Administrator
-      color: green 
-      company: 'OneStop Connections, Pty Ltd'
-      location: Surry Hills
-      date: 2019 - 2021
-      description: I was single-handedly responsible for the corporate enviornment, which included vendor management and migrating staff remotely during the pandemic.
+      - jobTitle: Junior Systems Administrator
+        color: green 
+        company: 'OneStop Connections, Pty Ltd'
+        location: Surry Hills
+        date: 2019 - 2021
+        description: I was single-handedly responsible for the corporate enviornment, which included vendor management and migrating staff remotely during the pandemic.
 
   education:
-   - courseName: Bachelor of Science in Information Technology
-     color: green
-     date: 2020 - 2025
-     description: |
-        University of Technology Sydney
-        Majoring in Enterprise Systems Development
+    details:
+     - courseName: Bachelor of Science in Information Technology
+       color: green
+       date: 2020 - 2025
+       description: |
+          University of Technology Sydney
+          Majoring in Enterprise Systems Development
 
-        The course aims to produce graduates who are able to apply, in the context of any organisation, the knowledge and skills required of:
-          • information systems professionals in business units who integrate packaged systems rather than develop systems from first principles
-          • information technology professionals who develop systems from first principles, or
-          • cybersecurity and network specialists who build, maintain and administer complex network systems
+          The course aims to produce graduates who are able to apply, in the context of any organisation, the knowledge and skills required of:
+            • information systems professionals in business units who integrate packaged systems rather than develop systems from first principles
+            • information technology professionals who develop systems from first principles, or
+            • cybersecurity and network specialists who build, maintain and administer complex network systems
 
-   - courseName: Advanced Diploma of Network security
-     color: green
-     date: 2019
-     description: |
-      TAFE Ultimo
-
-      This qualification provides the skills and knowledge for an individual to plan, design, manage and monitor an enterprise information and communications technology (ICT) network as an independent ICT specialist or as part of a team responsible for advanced ICT network security systems.
-
-      The qualification has a high-level ICT technical base with appropriate security units and the ability to specialise in several areas, including voice, wireless, network infrastructure and sustainability.
-
-   - courseName: Diploma of Advanced Networking
-     color: green
-     date: 2019
-     description: |
-      TAFE Ultimo
-
-        This qualification provides an individual the skills and knowledge to manage, as an independent ICT specialist or as part of a team, the installation of a range of networks, including internetworking, security and e-business integration.
-
-   - courseName: Certificate IV of Information Technology
-     color: green
-     date: 2018
-     description: |
+     - courseName: Advanced Diploma of Network security
+       color: green
+       date: 2019
+       description: |
         TAFE Ultimo
 
-        This qualification provides the skills and knowledge for an individual to manage, as an independent ICT specialist or as part of a team, the installation of a range of networks, including internetworking, security and e-business integration.
+        This qualification provides the skills and knowledge for an individual to plan, design, manage and monitor an enterprise information and communications technology (ICT) network as an independent ICT specialist or as part of a team responsible for advanced ICT network security systems.
 
-   - courseName: Bachelor in Information Technology
-     color: green
-     date: 2025
+        The qualification has a high-level ICT technical base with appropriate security units and the ability to specialise in several areas, including voice, wireless, network infrastructure and sustainability.
+
+     - courseName: Diploma of Advanced Networking
+       color: green
+       date: 2019
+       description: |
+        TAFE Ultimo
+
+          This qualification provides an individual the skills and knowledge to manage, as an independent ICT specialist or as part of a team, the installation of a range of networks, including internetworking, security and e-business integration.
+
+     - courseName: Certificate IV of Information Technology
+       color: green
+       date: 2018
+       description: |
+          TAFE Ultimo
+
+          This qualification provides the skills and knowledge for an individual to manage, as an independent ICT specialist or as part of a team, the installation of a range of networks, including internetworking, security and e-business integration.
+
+     - courseName: Bachelor in Information Technology
+       color: green
+       date: 2025
     
 
   skills:
-    - name: Linux/Bash
-      color: green
-      percentage: 100
-      # Description: 
+    details: 
+      - name: Linux/Bash
+        color: green
+        percentage: 100
+        # Description: 
 
-    - name: Python
-      color: yellow
-      percentage: 30
-      # description: Currently learning. I've written some scripts and completed various LeetCode challenges. 
+      - name: Python
+        color: yellow
+        percentage: 30
+        # description: Currently learning. I've written some scripts and completed various LeetCode challenges. 
 
-    - name: Web Administration
-      color: orange
-      percentage: 80
-      description: You're looking at it ;)
-      
-    - name: Kubernetes
-      color: violet
-      percentage: 50
-      description: |
-        I administer Kubernetnes nodes across the world, codified using Helm Charts.
+      - name: Web Administration
+        color: orange
+        percentage: 80
+        description: You're looking at it ;)
+        
+      - name: Kubernetes
+        color: violet
+        percentage: 50
+        description: |
+          I administer Kubernetnes nodes across the world, codified using Helm Charts.
 
-        I have built a Kubernetes cluster on my homelab and use it to self-host various services.
+          I have built a Kubernetes cluster on my homelab and use it to self-host various services.
 
   softskills:
-    - name: Communication
-      color: red
-      percentage: 80
-      description:
+    details:
+      - name: Communication
+        color: red
+        percentage: 80
+        description:
 
-    - name:  Documentation
-      #color: 
-      percentage: 90
-      description: I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe. This means documentation and communication have to be impeccable to ensure ccontinuity across timezones.
+      - name:  Documentation
+        #color: 
+        percentage: 90
+        description: I collaborate with three teams internationally to support software that powers tens of thousands of businesses across the globe. This means documentation and communication have to be impeccable to ensure ccontinuity across timezones.
 
   # languages:
   #   - name: English
@@ -172,25 +179,26 @@ params:
 
 
   projects:
-    - title: Kubernetes Cluster
-      color: red
-      date: since 2021
-      link: https://github.com/stuartcallum/homelab
-      description: |
-        I built a multi-node homelab to manage my data and media. Each node is attached to an M.2 SSD which uses Ceph to pool them into a ZFS array.
-        I am currently working on codifying my Cluster using Terraform and Helm Charts.
+    details:
+      - title: Kubernetes Cluster
+        color: red
+        date: since 2021
+        link: https://github.com/stuartcallum/homelab
+        description: |
+          I built a multi-node homelab to manage my data and media. Each node is attached to an M.2 SSD which uses Ceph to pool them into a ZFS array.
+          I am currently working on codifying my Cluster using Terraform and Helm Charts.
 
-    - title: CI/CD Pipeline
-      color: green
-      date: since 2023
-      link: https://github.com/stuartcallum/blog
-      description: Built this website on Hugo. It uses Cloudflare Pages to host and redeploy whenever I push to git. SSL Certs are managed using Cloudflare.
+      - title: CI/CD Pipeline
+        color: green
+        date: since 2023
+        link: https://github.com/stuartcallum/blog
+        description: Built this website on Hugo. It uses Cloudflare Pages to host and redeploy whenever I push to git. SSL Certs are managed using Cloudflare.
 
-    - title: Java Web-App
-      color: orange
-      date: Sem 1 2024
-      link: https://github.com/twdly/IoTBay
-      description: Project for my Software Development class. Building a web app in java and hosted by Tomcat using SOLID principals. I have automated building and deploying using Apache Ant.
+      - title: Java Web-App
+        color: orange
+        date: Sem 1 2024
+        link: https://github.com/twdly/IoTBay
+        description: Project for my Software Development class. Building a web app in java and hosted by Tomcat using SOLID principals. I have automated building and deploying using Apache Ant.
 
     # - title: Project Default
     #   date: Since 2017
