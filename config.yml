@@ -18,8 +18,15 @@ params:
   listls: true
   hidesource: true
   greeting: | 
-    Welcome to my online resume
 
+    _________        .__  .__                    _________ __                       __   
+    \_   ___ \_____  |  | |  |  __ __  _____    /   _____//  |_ __ _______ ________/  |_ 
+    /    \  \/\__  \ |  | |  | |  |  \/     \   \_____  \\   __\  |  \__  \\_  __ \   __\
+    \     \____/ __ \|  |_|  |_|  |  /  Y Y  \  /        \|  | |  |  // __ \|  | \/|  |  
+     \______  (____  /____/____/____/|__|_|  / /_______  /|__| |____/(____  /__|   |__|  
+            \/     \/                      \/          \/                 \/             
+
+    Welcome to my online resume
 
     Type 'help' for a list of available commands
 
